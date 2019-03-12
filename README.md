@@ -40,7 +40,7 @@ Training an Ego-splitter model is handled by the `src/main.py` script which prov
   --learning-rate     FLOAT   Adam learning rate.            Default is 0.01
 ```
 ### Examples
-The following commands learn a neural network and score on the test set. Training a model on the default dataset.
+The following commands create an egonet splitted overlapping community assignment. (Training a model on the default dataset.)
 ```
 python src/main.py
 ```
