@@ -25,6 +25,7 @@ class EgoNetSplitter(object):
         self.components = {}
         self.personalities = {}
         self.index = 0
+        print("Creating egonets.")
         for node in tqdm(self.graph.nodes()):
             self.create_egonet(node)
 
@@ -33,10 +34,12 @@ class EgoNetSplitter(object):
 
 
     def create_persona_graph(self):
+        print("Creating the persona graph.")
         self.persona_graph_edges = [(self.components[edge[0]][edge[1]], self.components[edge[1]][edge[0]]) for edge in tqdm(self.graph.edges())]
         self.persona_graph = nx.from_edgelist(self.persona_graph_edges)
 
     def create_partitions(self):
+        print("Clustering the persona graph.")
         self.partitions = community.best_partition(self.persona_graph, resolution=self.resolution)
         self.overlapping_partitions = {node: [] for node in self.graph.nodes()}
         for node, membership in self.partitions.items():
