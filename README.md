@@ -9,12 +9,12 @@ We propose a new framework called Ego-Splitting for detecting clusters in comple
 
 More precisely, our framework works in two steps: a local ego-net analysis phase, and a global graph partitioning phase . In the local step, we first partition the nodes’ ego-nets using a partitioning algorithm. We then use the computed clusters to split each node into its persona nodes that represent the instantiations of the node in its communities. Then, in the global step, we partition the newly created graph to obtain an overlapping clustering of the original graph.</p>
 
-This repository provides a PyTorch implementation of NGCN as described in the paper:
+This repository provides a PyTorch implementation of Ego-splitting as described in the paper:
 
-> A Higher-Order Graph Convolutional Layer.
-> Sami A Abu-El-Haija, Bryan Perozzi, Amol Kapoor, Nazanin Alipourfard, Hrayr Harutyunyan.
-> NeurIPS, 2018.
-> [[Paper]](http://sami.haija.org/papers/high-order-gc-layer.pdf)
+> Ego-splitting Framework: from Non-Overlapping to Overlapping Clusters.
+> Alessandro Epasto, Silvio Lattanzi, and Renato Paes Leme.
+> KDD, 2017.
+> [[Paper]](https://www.eecs.yorku.ca/course_archive/2017-18/F/6412/reading/kdd17p145.pdf)
 
 ### Requirements
 The codebase is implemented in Python 3.5.2. package versions used for development are just below.
