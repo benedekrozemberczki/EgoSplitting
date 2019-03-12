@@ -45,7 +45,7 @@ The following commands learn a neural network and score on the test set. Trainin
 python src/main.py
 ```
 <p align="center">
-<img style="float: center;" src="ngcn_run.jpg">
+<img style="float: center;" src="egonet_run.jpg">
 </p>
 
 Training a model with a higher resolution.
