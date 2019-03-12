@@ -55,7 +55,7 @@ Training a model with a higher resolution.
 ```
 python src/main.py --resolution 2.5
 ```
-Increasing the learning rate and the dropout.
+Training a model with a lower resolution.
 ```
-python src/main.py --learning-rate 0.1 --dropout 0.9
+python src/main.py --resolution 0.5
 ```
