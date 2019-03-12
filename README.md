@@ -30,7 +30,7 @@ argparse          1.1.0
 The code takes the **edge list** of the graph in a csv file. Every row indicates an edge between two nodes separated by a comma. The first row is a header. Nodes should be indexed starting with 0. A sample graph for `Facebook Politicians` is included in the  `input/` directory.
 
 ### Options
-Training an NGCN model is handled by the `src/main.py` script which provides the following command line arguments.
+Training an Ego-splitter model is handled by the `src/main.py` script which provides the following command line arguments.
 
 #### Input and output options
 ```
@@ -51,7 +51,7 @@ python src/main.py
 <img style="float: center;" src="ngcn_run.jpg">
 </p>
 
-Training an NGCN model for a 100 epochs.
+Training a model with a higher resolution.
 ```
 python src/main.py --resolution 2.5
 ```
