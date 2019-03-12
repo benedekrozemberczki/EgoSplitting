@@ -36,13 +36,6 @@ Training an NGCN model is handled by the `src/main.py` script which provides the
 ```
   --edge-path       STR    Edge list csv.         Default is `input/cora_edges.csv`.
   --features-path   STR    Features json.         Default is `input/cora_features.json`.
-  --target-path     STR    Target classes csv.    Default is `input/cora_target.csv`.
-```
-#### Model options
-```
-  --seed              INT     Random seed.                   Defailt is 42.
-  --epochs            INT     Number of training epochs.     Default is 200.
-  --early-stopping    INT     Early stopping rounds.         Default is 5.
   --training-size     INT     Training set size.             Default is 1500.
   --validation-size   INT     Validation set size.           Default is 500.
   --learning-rate     FLOAT   Adam learning rate.            Default is 0.01
