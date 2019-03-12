@@ -53,14 +53,9 @@ python src/main.py
 
 Training an NGCN model for a 100 epochs.
 ```
-python src/main.py --epochs 100
+python src/main.py --resolution 2.5
 ```
 Increasing the learning rate and the dropout.
 ```
 python src/main.py --learning-rate 0.1 --dropout 0.9
 ```
-Training a two layer model:
-```
-python src/main.py --layers 64 64
-```
-
