@@ -43,10 +43,6 @@ The following commands create an egonet splitted overlapping community assignmen
 ```
 python src/main.py
 ```
-<p align="center">
-<img style="float: center;" src="egonet_run.jpg">
-</p>
-
 Training a model with a higher resolution.
 ```
 python src/main.py --resolution 2.5
