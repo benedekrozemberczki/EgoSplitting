@@ -35,8 +35,8 @@ Training an Ego-splitter model is handled by the `src/main.py` script which prov
 #### Input and output options
 ```
   --edge-path       STR     Edge list csv.            Default is `input/tvshow_edges.csv`.
-  --features-path   STR     Features json.            Default is `output/tvshow_cluster_memberships.json`.
-  --resolution      FLOAT   Validation set size.      Default is 500.
+  --features-path   STR     Membership json.          Default is `output/tvshow_cluster_memberships.json`.
+  --resolution      FLOAT   Validation set size.      Default is 1.0.
 ```
 ### Examples
 The following commands create an egonet splitted overlapping community assignment. (Training a model on the default dataset.)
