@@ -36,11 +36,8 @@ Training an Ego-splitter model is handled by the `src/main.py` script which prov
 ```
   --edge-path       STR    Edge list csv.         Default is `input/cora_edges.csv`.
   --features-path   STR    Features json.         Default is `input/cora_features.json`.
-  --training-size     INT     Training set size.             Default is 1500.
   --validation-size   INT     Validation set size.           Default is 500.
   --learning-rate     FLOAT   Adam learning rate.            Default is 0.01
-  --dropout           FLOAT   Dropout rate value.            Default is 0.5
-  --layers            LST     Layer sizes for model.         Default is [64, 64, 64]. 
 ```
 ### Examples
 The following commands learn a neural network and score on the test set. Training a model on the default dataset.
@@ -56,6 +53,11 @@ Training a model with a higher resolution.
 python src/main.py --resolution 2.5
 ```
 Training a model with a lower resolution.
+```
+python src/main.py --resolution 0.5
+```
+
+Training a model on the Facebook TV shows dataset.
 ```
 python src/main.py --resolution 0.5
 ```
