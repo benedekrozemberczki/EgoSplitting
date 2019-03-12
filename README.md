@@ -34,10 +34,9 @@ Training an Ego-splitter model is handled by the `src/main.py` script which prov
 
 #### Input and output options
 ```
-  --edge-path       STR    Edge list csv.         Default is `input/cora_edges.csv`.
-  --features-path   STR    Features json.         Default is `input/cora_features.json`.
-  --validation-size   INT     Validation set size.           Default is 500.
-  --learning-rate     FLOAT   Adam learning rate.            Default is 0.01
+  --edge-path       STR     Edge list csv.            Default is `input/tvshow_edges.csv`.
+  --features-path   STR     Features json.            Default is `output/tvshow_cluster_memberships.json`.
+  --resolution      FLOAT   Validation set size.      Default is 500.
 ```
 ### Examples
 The following commands create an egonet splitted overlapping community assignment. (Training a model on the default dataset.)
@@ -59,5 +58,5 @@ python src/main.py --resolution 0.5
 
 Training a model on the Facebook TV shows dataset.
 ```
-python src/main.py --resolution 0.5
+python src/main.py --edge-path input/tvshow_edges.csv --output-path output/tvshow_cluster_memberships.json
 ```
