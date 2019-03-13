@@ -3,7 +3,12 @@ import networkx as nx
 from tqdm import tqdm
 
 class EgoNetSplitter(object):
-
+    """
+    A lightweight implementation of . 
+    Paper: 
+    Video: https://www.youtube.com/watch?v=xMGZo-F_jss
+    Slides:
+    """
     def __init__(self, graph, resolution):
         self.graph = graph
         self.resolution = resolution
