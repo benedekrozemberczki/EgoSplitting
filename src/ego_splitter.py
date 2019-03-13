@@ -7,7 +7,7 @@ class EgoNetSplitter(object):
     A lightweight implementation of . 
     Paper: 
     Video: https://www.youtube.com/watch?v=xMGZo-F_jss
-    Slides:
+    Slides: https://epasto.org/papers/kdd2017-Slides.pdf
     """
     def __init__(self, graph, resolution):
         self.graph = graph
