@@ -20,7 +20,7 @@ class EgoNetSplitter(object):
     def create_egonet(self, node):
         """
         Creating an ego net, extracting personas and partitioning it.
-        :param node:
+        :param node: Node ID for egonet (ego node).
         """
         ego_net_minus_ego = self.graph.subgraph(self.graph.neighbors(node))
         components = {i: nodes for i, nodes in enumerate(nx.connected_components(ego_net_minus_ego))}
