@@ -41,7 +41,6 @@ class EgoNetSplitter(object):
     def map_personalities(self):
         self.personality_map = {persona: node for node in self.graph.nodes() for persona in self.personalities[node]}
 
-
     def create_persona_graph(self):
         print("Creating the persona graph.")
         self.persona_graph_edges = [(self.components[edge[0]][edge[1]], self.components[edge[1]][edge[0]]) for edge in tqdm(self.graph.edges())]
