@@ -27,7 +27,6 @@ def graph_reader(path):
     graph.remove_edges_from(graph.selfloop_edges())
     return graph
 
-
 def membership_saver(path, memberships):
     """
     Saving the membership dictionary as a JSON.
