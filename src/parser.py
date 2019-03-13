@@ -2,7 +2,7 @@ import argparse
 
 def parameter_parser():
     """
-    A method to ..
+    A method to parse the pathes and the resolution for EgoSplitting.
     """
     parser = argparse.ArgumentParser(description = "Run EgoNetSplitter.")
 
