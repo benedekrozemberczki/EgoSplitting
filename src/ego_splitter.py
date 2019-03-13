@@ -18,6 +18,10 @@ class EgoNetSplitter(object):
         self.resolution = resolution
 
     def create_egonet(self, node):
+        """
+        Creating an ego net, extracting personas and partitioning it.
+        :param node:
+        """
         ego_net_minus_ego = self.graph.subgraph(self.graph.neighbors(node))
         components = {i: nodes for i, nodes in enumerate(nx.connected_components(ego_net_minus_ego))}
         new_mapping = {}
@@ -31,6 +35,9 @@ class EgoNetSplitter(object):
         self.personalities[node] = personalities
 
     def create_egonets(self):
+        """
+        Creating an egonet for each node.
+        """
         self.components = {}
         self.personalities = {}
         self.index = 0
