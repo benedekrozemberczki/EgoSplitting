@@ -5,7 +5,7 @@ from tqdm import tqdm
 class EgoNetSplitter(object):
     """
     A lightweight implementation of . 
-    Paper: 
+    Paper: https://www.eecs.yorku.ca/course_archive/2017-18/F/6412/reading/kdd17p145.pdf
     Video: https://www.youtube.com/watch?v=xMGZo-F_jss
     Slides: https://epasto.org/papers/kdd2017-Slides.pdf
     """
