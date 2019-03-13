@@ -10,6 +10,10 @@ class EgoNetSplitter(object):
     Slides: https://epasto.org/papers/kdd2017-Slides.pdf
     """
     def __init__(self, graph, resolution):
+        """
+        :param graph: Networkx object.
+        :param resolution: Resolution parameter of Python Louvain.
+        """
         self.graph = graph
         self.resolution = resolution
 
