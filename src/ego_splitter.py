@@ -52,5 +52,3 @@ class EgoNetSplitter(object):
         self.overlapping_partitions = {node: [] for node in self.graph.nodes()}
         for node, membership in self.partitions.items():
             self.overlapping_partitions[self.personality_map[node]].append(membership)
-
-
