@@ -1,6 +1,6 @@
+import community
 import networkx as nx
 from tqdm import tqdm
-import community
 
 class EgoNetSplitter(object):
 
