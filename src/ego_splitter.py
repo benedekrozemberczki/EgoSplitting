@@ -60,6 +60,9 @@ class EgoNetSplitter(object):
         self.persona_graph = nx.from_edgelist(self.persona_graph_edges)
 
     def create_partitions(self):
+        """
+        Creating a non-overlapping clustering of nodes in the persona graph.
+        """
         print("Clustering the persona graph.")
         self.partitions = community.best_partition(self.persona_graph, resolution=self.resolution)
         self.overlapping_partitions = {node: [] for node in self.graph.nodes()}
