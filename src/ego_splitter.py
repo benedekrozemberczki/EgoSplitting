@@ -52,6 +52,9 @@ class EgoNetSplitter(object):
         self.personality_map = {persona: node for node in self.graph.nodes() for persona in self.personalities[node]}
 
     def create_persona_graph(self):
+        """
+        Create a persona graph using the egonet components.
+        """
         print("Creating the persona graph.")
         self.persona_graph_edges = [(self.components[edge[0]][edge[1]], self.components[edge[1]][edge[0]]) for edge in tqdm(self.graph.edges())]
         self.persona_graph = nx.from_edgelist(self.persona_graph_edges)
