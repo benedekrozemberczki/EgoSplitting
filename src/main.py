@@ -4,7 +4,7 @@ from utils import tab_printer, graph_reader, membership_saver
 
 def main():
     """
-    Parsing command line parameters ....
+    Parsing command line parameters, creating EgoNets, creating a partition of the persona graph. Saving the memberships.
     """
     args = parameter_parser()
     tab_printer(args)
