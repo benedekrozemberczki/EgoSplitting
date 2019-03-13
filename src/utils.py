@@ -29,5 +29,10 @@ def graph_reader(path):
 
 
 def membership_saver(path, memberships):
+    """
+    Saving the membership dictionary as a JSON.
+    :param path: Output path.
+    :param memberships: Membership dictionary.
+    """
     with open(path,"w") as f:
         json.dump(memberships,f)
