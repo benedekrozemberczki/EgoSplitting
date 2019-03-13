@@ -46,6 +46,9 @@ class EgoNetSplitter(object):
             self.create_egonet(node)
 
     def map_personalities(self):
+        """
+        Mapping the personas to new nodes.
+        """
         self.personality_map = {persona: node for node in self.graph.nodes() for persona in self.personalities[node]}
 
     def create_persona_graph(self):
