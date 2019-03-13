@@ -51,7 +51,6 @@ Training a model with a lower resolution.
 ```
 python src/main.py --resolution 0.5
 ```
-
 Training a model on the Facebook TV shows dataset.
 ```
 python src/main.py --edge-path input/tvshow_edges.csv --output-path output/tvshow_cluster_memberships.json
