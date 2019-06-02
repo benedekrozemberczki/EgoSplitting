@@ -17,6 +17,8 @@ This repository provides a lightweight NetworkX implementation of Ego-splitting 
 > KDD, 2017.
 > [[Paper]](https://www.eecs.yorku.ca/course_archive/2017-18/F/6412/reading/kdd17p145.pdf)
 
+A reference implementation is available [[here]]().
+
 ### Requirements
 The codebase is implemented in Python 3.5.2. package versions used for development are just below.
 ```
