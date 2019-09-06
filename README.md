@@ -31,8 +31,8 @@ argparse          1.1.0
 python-louvain    0.13.0
 ```
 ### Datasets
-
-The code takes the **edge list** of the graph in a csv file. Every row indicates an edge between two nodes separated by a comma. The first row is a header. Nodes should be indexed starting with 0. Sample graphs for `Facebook Politicians` and `Facebook TV Shows` are included in the  `input/` directory.
+<p align="justify">
+The code takes the **edge list** of the graph in a csv file. Every row indicates an edge between two nodes separated by a comma. The first row is a header. Nodes should be indexed starting with 0. Sample graphs for `Facebook Politicians` and `Facebook TV Shows` are included in the  `input/` directory.</p>
 
 ### Options
 Training an Ego-splitter model is handled by the `src/main.py` script which provides the following command line arguments.
