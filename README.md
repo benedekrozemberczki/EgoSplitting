@@ -1,4 +1,4 @@
-Ego-splitting Framework ![GitHub stars](https://img.shields.io/github/stars/benedekrozemberczki/EgoSplitting.svg?style=plastic) ![GitHub forks](https://img.shields.io/github/forks/benedekrozemberczki/EgoSplitting.svg?color=blue&style=plastic) ![License](https://img.shields.io/github/license/benedekrozemberczki/EgoSplitting.svg?color=blue&style=plastic)
+Ego-splitting Framework  ![License](https://img.shields.io/github/license/benedekrozemberczki/EgoSplitting.svg?color=blue&style=plastic)
 ============================================
 A NetworkX implementation of "Ego-splitting Framework: from Non-Overlapping to Overlapping Clusters" (KDD 2017)
 <p align="center">
