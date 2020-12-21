@@ -1,6 +1,6 @@
 Ego-Splitting Framework
 ============================================
-![License](https://img.shields.io/github/license/benedekrozemberczki/EgoSplitting.svg?color=blue&style=plastic) [![codebeat badge](https://codebeat.co/badges/d926332e-707f-4b91-88bb-207842d8a790)](https://codebeat.co/projects/github-com-benedekrozemberczki-egosplitting-master)
+![License](https://img.shields.io/github/license/benedekrozemberczki/EgoSplitting.svg?color=blue&style=plastic) [![codebeat badge](https://codebeat.co/badges/d926332e-707f-4b91-88bb-207842d8a790)](https://codebeat.co/projects/github-com-benedekrozemberczki-egosplitting-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/EgoSplitting.svg)](https://github.com/benedekrozemberczki/EgoSplitting/archive/master.zip)
 
 A NetworkX implementation of **Ego-splitting Framework: from Non-Overlapping to Overlapping Clusters (KDD 2017).**
 <p align="center">
