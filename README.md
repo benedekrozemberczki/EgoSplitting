@@ -62,3 +62,8 @@ Training a model on the Facebook TV shows dataset.
 ```
 python src/main.py --edge-path input/tvshow_edges.csv --output-path output/tvshow_cluster_memberships.json
 ```
+--------------------------------------------------------------------------------
+
+**License**
+
+- [GNU License](https://github.com/benedekrozemberczki/EgoSplitting/blob/master/LICENSE)
