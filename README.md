@@ -13,7 +13,7 @@ We propose a new framework called Ego-Splitting for detecting clusters in comple
 <p align="justify">
 More precisely, our framework works in two steps: a local ego-net analysis phase, and a global graph partitioning phase . In the local step, we first partition the nodes’ ego-nets using a partitioning algorithm. We then use the computed clusters to split each node into its persona nodes that represent the instantiations of the node in its communities. Then, in the global step, we partition the newly created graph to obtain an overlapping clustering of the original graph.</p>
 
-This repository provides a lightweight NetworkX implementation of Ego-splitting as described in the paper:
+This repository provides a lightweight **NetworkX** implementation of Ego-splitting as described in the paper:
 
 > Ego-splitting Framework: from Non-Overlapping to Overlapping Clusters.
 > Alessandro Epasto, Silvio Lattanzi, and Renato Paes Leme.
