@@ -67,3 +67,5 @@ python src/main.py --edge-path input/tvshow_edges.csv --output-path output/tvsho
 **License**
 
 - [GNU License](https://github.com/benedekrozemberczki/EgoSplitting/blob/master/LICENSE)
+
+--------------------------------------------------------------------------------
